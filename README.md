@@ -49,4 +49,9 @@ The number of research papers published on COVID-19 has grown dramatically over 
 -Transitioning from Script to Application: Moving from a series of static analysis scripts to a dynamic Streamlit application was a major learning point. The use of @st.cache_data was critical for performance, as it prevented the app from re-loading and re-processing the large dataset every time a user interacted with a widget.
 
 
+
 The process highlighted how a simple dashboard can bring data to life and make findings accessible to a broader audience.
+
+
+
+*The part3_analysis.py script and the Streamlit app both generate and display several key visualizations from the data, including a line chart showing publications over time, a bar chart of the top journals, and a word cloud of common paper titles.
